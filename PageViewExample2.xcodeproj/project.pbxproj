@@ -16,6 +16,7 @@
 		E26EAD76278C85EC00C07860 /* PageViewExample2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26EAD75278C85EC00C07860 /* PageViewExample2Tests.swift */; };
 		E26EAD80278C85EC00C07860 /* PageViewExample2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26EAD7F278C85EC00C07860 /* PageViewExample2UITests.swift */; };
 		E26EAD82278C85EC00C07860 /* PageViewExample2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26EAD81278C85EC00C07860 /* PageViewExample2UITestsLaunchTests.swift */; };
+		E28B443927988A5400F0C773 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B443827988A5400F0C773 /* TextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E26EAD7B278C85EC00C07860 /* PageViewExample2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewExample2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26EAD7F278C85EC00C07860 /* PageViewExample2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewExample2UITests.swift; sourceTree = "<group>"; };
 		E26EAD81278C85EC00C07860 /* PageViewExample2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewExample2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E28B443827988A5400F0C773 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 		E26EAD5D278C85E900C07860 /* PageViewExample2 */ = {
 			isa = PBXGroup;
 			children = (
-				E26EAD5E278C85E900C07860 /* AppDelegate.swift */,
-				E26EAD60278C85E900C07860 /* SceneDelegate.swift */,
 				E26EAD62278C85E900C07860 /* ViewController.swift */,
 				E26EAD64278C85E900C07860 /* Main.storyboard */,
+				E28B443827988A5400F0C773 /* TextViewController.swift */,
+				E26EAD5E278C85E900C07860 /* AppDelegate.swift */,
+				E26EAD60278C85E900C07860 /* SceneDelegate.swift */,
 				E26EAD67278C85EC00C07860 /* Assets.xcassets */,
 				E26EAD69278C85EC00C07860 /* LaunchScreen.storyboard */,
 				E26EAD6C278C85EC00C07860 /* Info.plist */,
@@ -261,6 +264,7 @@
 				E26EAD63278C85E900C07860 /* ViewController.swift in Sources */,
 				E26EAD5F278C85E900C07860 /* AppDelegate.swift in Sources */,
 				E26EAD61278C85E900C07860 /* SceneDelegate.swift in Sources */,
+				E28B443927988A5400F0C773 /* TextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
